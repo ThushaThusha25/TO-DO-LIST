@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  background: red;
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+  background: black;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  background:white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+.filters button {
+  margin-top: 10px;
+}
